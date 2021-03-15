@@ -7,10 +7,16 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
+  {%- if page.header-hero -%}
+  <div class="hero">
+    <img class="header-hero-image" src="{{ page.header-hero | relative_url }}" />
+  </div>
+  {%- endif -%}
+
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "Produce Updates" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>

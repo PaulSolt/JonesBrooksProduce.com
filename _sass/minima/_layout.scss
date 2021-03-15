@@ -207,7 +207,13 @@
   @include relative-font-size(1.5);
 }
 
+/**
+ * Cover image
+ */
 
+ .header-hero-image {    
+  max-width: 100%;
+}
 
 /**
  * Posts
