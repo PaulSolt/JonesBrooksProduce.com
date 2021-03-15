@@ -3,6 +3,10 @@ Jones Brooks Produce Jekyll Website
 
 1. [Install Ruby, Jekyll, and more](https://jekyllrb.com/docs/)
 
+   ```
+   bundle install
+   ```
+
 2. Build and make site available on a local server
 
    ```
