@@ -5,7 +5,7 @@ permalink: /beans/
 header-hero: /assets/images/jonesbrooks-produce-beans-hero.jpeg
 ---
 
-## Beans of Every Kind
+## Every Kind of Bean
 
 We sell dried beans, lentils, and grains in two pound bags. Our delicious beans will fill you up.
 
